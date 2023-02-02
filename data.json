@@ -1,0 +1,87 @@
+[
+    {
+        "num" : "1",
+        "analogie":"un fruit",
+        "class":"le bleu",
+        "sec":"bleu",
+        "numerotation":"1",
+        "valeurAnalogie":"la mangue",
+        "arguments":"Mon fruit préféré est la mangue, j'adore manger ce fruit, il me rappelle le Cap-Vert. Les mangues du Cap-Vert ont un goût sucré et juteux, une texture  douce et fondante.",
+        "photo":"images/mango.png",
+        "alt":""
+
+    },
+
+    {
+        "num" : "2",
+        "analogie":"une célébrité",
+        "class":"vert",
+        "sec":"vert",
+        "numerotation":"2",
+        "valeurAnalogie":"Michael Jackson.",
+        "arguments":"Ma passion pour Michael Jackson a commencé quand j'avais 5 ans. J'ai dû danser sur sa chanson thriller,c'était une catastrophe mais j'en garde un bon souvenir.J'adore son charisme,son style,sa manières de chanter,il était impressionnant.Je l'ai toujours admiré même s'il n'est plus dans son monde.Il sera toujours le roi de la pop.",
+        "photo":"images/Michael Jackson.png",
+        "alt":""
+    },
+
+
+    {
+        "num" : "3",
+        "analogie":"une planète",
+        "class":"rose",
+        "sec":"rose",
+         "valeurAnalogie":"Pluton",
+        "arguments":"Bien que Pluton n'est plus considéré comme une planète,elle se démarque des autres planètes,je me vois en elle,nous avons tous les deux quelque chose en commun qui nous rend unique.",
+        "photo":"images/pluto.png",
+        "alt":""
+    },
+
+    {
+        "num" : "4",
+        "analogie":"une chansons",
+        "class":"marron",
+        "sec":"marron",
+        "valeurAnalogie":"sodade",
+        "arguments":"Sodade est embolique pour moi car elle évoque le passé douloureux du pays,des épisodes les plus cruels du Cap-Vert,celui de la déportation des Cap Verdiens 30 000 vers les champs de cacao de la Guinée Bissau,puis de Sao Tomé et Principe.Chaque fois que je l'écoute avec ma famille,cela me brise le cœur.",
+        "photo":"images/chanson.png",
+        "alt":"image chanson"
+    },
+
+    {
+        "num" : "5",
+        "analogie":"une couleur",
+        "class":"violet",
+        "sec":"violet",
+        "numerotation":"5",
+        "valeurAnalogie":"le vert",
+        "arguments":"Parce que cette couleur inspire le calme, la nature, la simplicité.Le vert symbolise l'espoir à mes yeux. De toutes les couleurs, j'apprécie celle-ci.C'est un symbole de prospérité, de fraîcheur et de progrès..Je trouve cette couleur apaisante .",
+        "photo":"images/vert.png",
+        "alt":"image couleur"
+
+
+    },
+    {
+        "num" : "6",
+        "analogie":"un disney",
+        "class":"noir",
+        "sec":"noir",
+        "arguments":"J'adore l'univers Disney,mon meilleurs Walt Dinsey et Le Roi Lion, le  scénario est absolument incroyable, les personnages sont iconiques. Cette animation me rend nostalgique.J'aime particulièrement ce film pour une raison principale, grâce à cette animation j'ai appris une bonne leçon sur le fait de bien choisir à qui faire confiance.",
+        "numerotation":"6",
+        "valeurAnalogie":"le Roi Lion",
+        "photo":"images/disney.png",
+        "alt":"image roi lion"
+    },
+    {
+        "num" : "7",
+        "analogie":"Pécher",
+        "class":"jaune",
+        "sec":"jaune",
+        "numerotation":"7",
+        "valeurAnalogie":"La Colère",
+        "arguments":"J'ai tendance à beaucoup m'investir dans ce que je fais.Parfois je ne contrôle plus mes sentiment,cela me porte préjudice car j'ai du mal à garder mon sans froid face aux obstacles qui se présentent.",
+        "photo":"images/colère.png",
+         "alt":"image colére"
+    }
+    
+
+]

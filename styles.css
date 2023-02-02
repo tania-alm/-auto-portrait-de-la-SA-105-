@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'montitre';
+    src: url("font/MOLIKA.woff2") format('woff2');
+    src: url("font/MOLIKA.woff") format('woff');
+    font-size: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mon2titre';
+    src: url("font/Hashira_Mt.woff2") format('woff2');
+    
+    font-size: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'analogie';
+    src: url("font/Bagola.woff2") format('woff2');
+    src: url("font/Bagola.woff") format('woff');
+    font-size: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'présentation';
+    src: url("font/EleanoreDEMO.woff") format('woff');
+    font-size: normal;
+    font-style: normal;
+}
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+   
+    
+   
+    
+
+}
+
+header.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header.header img {
+    max-width: 100%;
+	height: auto;
+
+
+}
+
+
+section.top-page {
+    background: url(images/FOND.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+
+}
+
+/*menu de naviagation*/
+nav.nav {
+    backdrop-filter: blur(10px);
+     border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 9px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: fixed;
+    z-index: 10;
+    
+   
+
+}
+
+nav.nav li {
+    color: aliceblue;
+    font-size: 2rem;
+    padding-top: 20px;
+    
+   
+    
+
+
+
+
+
+}
+a{
+    text-decoration: none;
+    padding: 8px;
+   
+}
+/*Fin de ma navigation*/
+
+
+/* page de bienvenus */
+
+h1 {
+    font-family: 'montitre';
+    color: rgb(13, 11, 11);
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px, 80px;
+    padding-top: 1em;
+
+
+}
+
+/*bouton qui permet de commencer */
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 15px 100px;
+    margin: 10px 4px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+    
+  }
+a:hover{
+    background:#e7bee7;
+    border-radius: 30px;
+    transition: all 0.8s ease;
+    
+}
+
+  /* mon premier titre  */
+.landing-page {
+    text-align: center;
+}
+
+
+
+/*tous  titre de mes analogies*/
+h2 {
+    -webkit-animation: slide 2s ease;
+    animation: slide 2s ease;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Sofia Sans', sans-serif;
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+/*cela représente tous mes images de mes différentes analogies*/
+img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    border-radius: 50px;
+   
+    
+}
+/*un mouvement de tous mes images*/
+
+img:hover{
+    transform: scale(1.2);
+    transition: all 0.8s ease;
+       
+}
+
+
+
+
+
+/*représente tous les paragraphe */
+
+p{  
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(254 179 248 / 34%);
+    padding: 24px;
+    border-radius: 10px;
+    font: 1em sans-serif;;
+    display: flex;
+    color: #120e0e;
+    width: 400px;
+    
+    
+   
+    
+}
+p.send{
+    background-color: #ffffff;
+    width: 49px;
+}
+/*Mon formulaire*/
+form{
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+    height: 300px;
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.formulation{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(189, 219, 166), rgb(254, 179, 248));
+    height: 202vh;
+}
+label{
+    text-align: center;
+}
+h3{
+    text-align: center;
+
+}
+
+
+/* mon bouton pour mon popup*/
+.bouton-popup{
+    background-color: #F0C6D6;
+    padding: 1em 2em;
+    font-size: 14px;
+    color: black;
+
+}
+.bouton-popup:hover{
+    background-color: #FADADF;
+}
+.overlay{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+   display: none;
+
+
+}
+
+.popup{
+    padding: 10px;
+    margin: 20% auto;
+    width: 70%;
+    height: 100%;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgb(214 122 122 / 75%);
+   
+
+}
+.popup p{
+    text-align: left;
+}
+.btnclose {
+    cursor: pointer;
+}
+
+/*Fin de ma popup*/
+
+/*ma partie analogie*/
+.donnees {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    
+}
+.valeur{
+    color: black;
+}
+
+section{
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+}
+
+/*.container:nth-child(2n+1){
+    background-color:#bf5baa;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}*/
+
+
+
+/*valeur ex Micheal Jackson*/
+.h2p1 {
+    font-size: 1,59em;
+    color: #ffffff;
+    font-family:'analogie';
+    
+
+}
+
+.analogie{
+    background-color: #D0D9AA;
+  
+}
+
+
